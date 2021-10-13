@@ -1,10 +1,6 @@
 package com.code.LinkList;
 
 
-import com.code.MaxSubArrayProduct;
-
-import java.util.List;
-
 public class ReverseList {
 
 //    反转一个单链表。
