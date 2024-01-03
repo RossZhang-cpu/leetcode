@@ -1,13 +1,0 @@
-
-J
-java:S3740"/Provide the parametrized type for this generic.(£”…§úÿÿÿÿ
-J
-java:S3740"/Provide the parametrized type for this generic.(ƒ÷™¹þÿÿÿÿ
-J
-java:S3740"/Provide the parametrized type for this generic.(ƒ÷™¹þÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(›Å¼‘
-’
-java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(àÜÕúÿÿÿÿÿ
-œ
-java:S1130"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(àÜÕúÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(’œÄ§ÿÿÿÿÿ
