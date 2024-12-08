@@ -1,7 +1,5 @@
 package com.code.others;
 
-import java.util.Arrays;
-
 public class UniquePath {
 
 

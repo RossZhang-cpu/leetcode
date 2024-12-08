@@ -1,7 +1,5 @@
 package com.code.string;
 
-import java.util.Arrays;
-
 public class Lexicographically {
     /**
      * Given a string s consisting of lowercase English letters. Perform the following operation:

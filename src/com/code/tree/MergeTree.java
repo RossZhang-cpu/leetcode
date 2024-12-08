@@ -1,7 +1,5 @@
 package com.code.tree;
 
-import java.util.LinkedList;
-
 public class MergeTree {
 
     //对于树尝试用递归思路

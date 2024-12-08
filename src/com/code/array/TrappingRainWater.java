@@ -1,8 +1,5 @@
 package com.code.array;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class TrappingRainWater {
     /*
     Given n non-negative integers representing an elevation map where the width of each bar is 1,

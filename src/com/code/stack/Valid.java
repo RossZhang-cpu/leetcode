@@ -3,9 +3,7 @@ package com.code.stack;
 import com.code.LinkList.ListNode;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.LinkedList;
-import java.util.Stack;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Valid {

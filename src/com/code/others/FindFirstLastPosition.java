@@ -1,7 +1,5 @@
 package com.code.others;
 
-import java.util.Arrays;
-
 public class FindFirstLastPosition {
 
     public int[] searchRange(int[] nums, int target) {

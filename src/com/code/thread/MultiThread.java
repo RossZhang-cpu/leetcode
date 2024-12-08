@@ -1,12 +1,5 @@
 package com.code.thread;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
 public class MultiThread {
 
     public static void main(String[] args) throws InterruptedException {

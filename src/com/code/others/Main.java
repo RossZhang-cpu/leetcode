@@ -1,16 +1,11 @@
 package com.code.others;
 
 import com.code.LinkList.ListNode;
-import com.code.quickSort.NextPermutation;
 
 import java.io.*;
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

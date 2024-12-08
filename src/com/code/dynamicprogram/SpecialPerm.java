@@ -1,7 +1,5 @@
 package com.code.dynamicprogram;
 
-import java.util.*;
-
 public class SpecialPerm {
     /**
      *You are given a 0-indexed integer array nums containing n distinct positive integers. A permutation of nums is called special if:

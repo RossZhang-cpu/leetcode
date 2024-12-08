@@ -1,7 +1,6 @@
 package com.code.thread;
 
 import java.util.concurrent.*;
-import java.util.logging.Logger;
 
 public class ThreadPool {
 

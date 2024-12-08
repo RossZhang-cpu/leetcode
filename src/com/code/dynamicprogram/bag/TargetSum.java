@@ -1,7 +1,5 @@
 package com.code.dynamicprogram.bag;
 
-import java.util.Arrays;
-
 public class TargetSum {
     //转换为0 1 背包问题
     public int findTargetSumWays(int[] nums, int target) {

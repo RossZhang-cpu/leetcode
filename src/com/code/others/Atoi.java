@@ -1,7 +1,5 @@
 package com.code.others;
 
-import java.util.LinkedHashMap;
-
 public class Atoi {
 
     public int myAtoi(String s) {

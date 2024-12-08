@@ -1,10 +1,6 @@
 package com.code.reflection;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.Hashtable;
-import java.util.concurrent.ConcurrentHashMap;
 
 public class Apple {
         private int price;
@@ -21,7 +17,7 @@ public class Apple {
             反射机制
          */
     public static void main(String[] args) throws Exception {
-//        Class clz = Class.forName("com.code.reflection.Apple");
+//        Class clz = Class.forName("com.code.java.reflection.Apple");
 ////        Method method = clz.getMethod("setPrice", int.class);
 ////        Constructor constructor = clz.getConstructor();
 ////        Object object = constructor.newInstance();

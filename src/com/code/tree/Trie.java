@@ -1,7 +1,5 @@
 package com.code.tree;
 
-import java.util.HashMap;
-
 class Trie {
 
     private Trie[] childern;

@@ -1,7 +1,6 @@
 package com.code.thread;
 
 
-import java.util.Collection;
 import java.util.Hashtable;
 import java.util.concurrent.atomic.AtomicInteger;
 

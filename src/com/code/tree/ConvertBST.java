@@ -1,10 +1,6 @@
 package com.code.tree;
 
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
-
 public class ConvertBST {
     int sum = 0;
     public TreeNode convertBST(TreeNode root) {

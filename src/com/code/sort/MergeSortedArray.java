@@ -1,6 +1,5 @@
 package com.code.sort;
 
-import java.awt.*;
 import java.util.Arrays;
 
 public class MergeSortedArray {
