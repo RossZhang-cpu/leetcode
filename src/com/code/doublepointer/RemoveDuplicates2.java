@@ -1,4 +1,4 @@
-package com.code.mutlipoints;
+package com.code.doublepointer;
 
 class Solution {
     public int removeDuplicates(int[] nums) {

@@ -1,4 +1,4 @@
-package com.code.mutlipoints;
+package com.code.doublepointer;
 
 public class FourSumCount {
 
