@@ -15,7 +15,63 @@ package com.code.string;
  */
 public class FirstOccurrenceInAString {
 
-    public int strStr(String haystack, String needle) {
-        return 1;
+    public int strStr1(String haystack, String needle) {
+        int res = -1;
+        if (haystack.contains(needle)) {
+            res = haystack.indexOf(needle);
+        }
+        return res;
+    }
+
+    public int strStrKMP(String haystack, String needle) {
+        if (haystack.length() < needle.length()) {
+            return -1;
+        }
+
+        int[] next = new int[needle.length()];
+        next[0] = 0;
+        char[] chars = needle.toCharArray();
+
+        //construct next array
+        for (int j = 0, i = 1; i < needle.length(); ++i) {
+            while (j > 0 && chars[i] != chars[j]) {
+                j = next[j - 1];
+            }
+
+            if (chars[j] == chars[i]) {
+                ++j;
+                next[i] = j;
+            }
+        }
+        int j = 0;
+        int res = -1;
+
+        for (int i = 0; i < haystack.length();) {
+            while (j < needle.length() && i < haystack.length() && haystack.charAt(i) == needle.charAt(j)) {
+                ++j;
+                ++i;
+            }
+            if (j >= needle.length()) {
+                res = i - j;
+                break;
+            }
+            if (i >= haystack.length()) {
+                break;
+            }
+
+            while (j >= 1 && haystack.charAt(i) != needle.charAt(j)) {
+                j = next[j - 1];
+            }
+
+            if (j == 0 && haystack.charAt(i) != needle.charAt(j)) {
+                ++i;
+            }
+        }
+        return res;
+    }
+
+    public static void main(String[] args) {
+        FirstOccurrenceInAString inAString = new FirstOccurrenceInAString();
+        inAString.strStrKMP("aabaaabaaac", "aabaaac");
     }
 }
