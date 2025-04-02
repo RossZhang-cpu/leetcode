@@ -1,4 +1,4 @@
-package com.code.quickSort;
+package com.code.sort;
 
 import java.util.Random;
 

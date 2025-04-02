@@ -1,6 +1,6 @@
-package com.code.quickSort;
+package com.code.sort;
 
-public class BubbleSort {
+public class BubbleSort2 {
 
     public void bubbleSort(int[] nums){
         for(int i = 0; i < 2; ++i){
